@@ -32,4 +32,14 @@ public class LibroService {
     public void eliminar(int id) {
         repository.eliminar(id);
     }
+
+    public int totalLibrosV1(){
+        return repository.obtenerLibros().size();
+        
+    }
+        public int totalLibrosV2(){
+        return repository.obtenerLibros().size();
+        
+    }
+
 }
